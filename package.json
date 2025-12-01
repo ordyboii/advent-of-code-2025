@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-code-2025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ordyboii/advent-of-code-2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ordyboii/advent-of-code-2025/issues"
+  },
+  "homepage": "https://github.com/ordyboii/advent-of-code-2025#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}

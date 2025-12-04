@@ -1,12 +1,12 @@
-# Advent of Code - 2025
+# Advent of Code 2025
 
-A small TypeScript/Node project for solving Advent of Code puzzles. 
+TypeScript project for solving Advent of Code puzzles. 
 
 ---
 
 ## Requirements
 
-- Node.js (recommended: v24+)
+- Node.js (recommended: v20+)
 - A package manager (`npm`, `pnpm`, or `yarn`)
 ---
 
@@ -29,12 +29,8 @@ pnpm install
 
 ## Running
 
-Two common approaches:
-
-1) Run with Node.js v24+ directly.
-
-2) Run TypeScript directly (less than v24):
-- With `ts-node`:
+Run TypeScript directly:
+- With `tsx`:
 ```bash
 npm install -g tsx
 tsx src/main.ts

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsx src/main.ts"
+    "start": "tsx src/main.ts",
+    "new-day": "bash scripts/new-day.sh"
   },
   "repository": {
     "type": "git",

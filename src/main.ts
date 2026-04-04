@@ -1,7 +1,7 @@
 import { createInterface } from "readline/promises";
 import { exit, stdin, stdout } from "process";
-import { Utils } from "./utils.ts";
-import { MAX_DAYS, MAX_PARTS } from "./utils.ts";
+import { Utils } from "./utils.js";
+import { MAX_DAYS, MAX_PARTS } from "./utils.js";
 
 const rl = createInterface({ input: stdin, output: stdout });
 

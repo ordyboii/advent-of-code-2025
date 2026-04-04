@@ -41,6 +41,9 @@ export class Utils {
       }
 
       const dayName = DAY_NAMES[dayNumber - 1];
+      if (!dayName) {
+        return { ok: false, error: new Error(`Invalid day number: ${dayNumber}`) };
+      }
 
       // Check if directory exists
       const currentFile = fileURLToPath(import.meta.url);
@@ -57,7 +60,7 @@ export class Utils {
       }
 
       // Dynamic import
-      const modulePath = `./days/${dayName}/index.ts`;
+      const modulePath = `./days/${dayName}/index.js`;
       const module = await import(modulePath);
 
       // Find exported class with partOne/partTwo methods

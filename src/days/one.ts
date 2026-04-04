@@ -1,10 +1,11 @@
 import { readFile } from "fs/promises";
-import { Result, Utils } from "../../utils.ts";
+import type { Result } from "../utils.js";
+import { Utils } from "../utils.js";
 
 export class DayOne {
   private static async getInput(): Promise<Result<string[]>> {
     try {
-      const inputPath = Utils.getFilePath("days/one/input.txt");
+      const inputPath = Utils.getFilePath("../scripts/one.txt");
       const input = await readFile(inputPath, { encoding: "utf-8" });
       return { ok: true, value: input.trim().split("\n") };
     } catch {

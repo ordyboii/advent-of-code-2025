@@ -1,3 +1,9 @@
-node_modules
-dist
-.codex
+bin/
+obj/
+
+.codex/
+.idea/
+.vscode/
+
+.DS_Store
+Thumbs.db

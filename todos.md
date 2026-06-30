@@ -64,9 +64,9 @@ Each task is self-contained so a new agent can pick it up with zero prior contex
 ---
 
 ## 5. Entry Point (`src/index.ts`)
-- [ ] **Create** `src/index.ts`
-- [ ] Import `partOne` and `partTwo` from `./days/day-one/index.js` (note `.js` extension for ESM)
-- [ ] Use top-level `await`:
+- [x] **Create** `src/index.ts`
+- [x] Import `partOne` and `partTwo` from `./days/day-one/index.js` (note `.js` extension for ESM)
+- [x] Use top-level `await`:
   - `console.log('Advent of code 2025 days')`
   - `console.log('Day 1 solutions')`
   - `await partOne()`
@@ -75,10 +75,10 @@ Each task is self-contained so a new agent can pick it up with zero prior contex
 ---
 
 ## 6. Clean Up Old C# Files
-- [ ] **Delete** `Program.cs`
-- [ ] **Delete** `Days/DayOne.cs`
-- [ ] **Delete** `Days/Utils.cs`
-- [ ] Verify no `.cs` or `.csproj` files remain in the repo
+- [x] **Delete** `Program.cs`
+- [x] **Delete** `Days/DayOne.cs`
+- [x] **Delete** `Days/Utils.cs`
+- [x] Verify no `.cs` or `.csproj` files remain in the repo
 
 ---
 

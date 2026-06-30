@@ -46,10 +46,10 @@ Each task is self-contained so a new agent can pick it up with zero prior contex
 ---
 
 ## 4. Day One Module (`src/days/day-one/index.ts`)
-- [ ] **Create** `src/days/day-one/index.ts` with two exported `async` functions:
+- [x] **Create** `src/days/day-one/index.ts` with two exported `async` functions:
   - `partOne(): Promise<void>`
   - `partTwo(): Promise<void>`
-- [ ] In `partOne`:
+- [x] In `partOne`:
   - Read `input.txt` via `new URL('input.txt', import.meta.url)`
   - Parse lines starting with `R` or `L` followed by a number
   - Track a `dial` starting at `50`
@@ -57,7 +57,7 @@ Each task is self-contained so a new agent can pick it up with zero prior contex
   - Count how many times `dial` hits exactly `0`
   - Log: `console.log(`Password: ${zeros}`)`
   - Throw `new Error(...)` for invalid move directions
-- [ ] In `partTwo`:
+- [x] In `partTwo`:
   - Read `input.txt`
   - Log each line with `console.log` (stub behavior, keep it simple)
 

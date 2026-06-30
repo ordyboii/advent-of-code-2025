@@ -83,7 +83,7 @@ Each task is self-contained so a new agent can pick it up with zero prior contex
 ---
 
 ## 7. Build & Verify
-- [ ] Run `npm install` to install TypeScript
-- [ ] Run `npm run build` — `tsc` should compile without errors
-- [ ] Run `npm start` — should print the expected Day 1 output
-- [ ] Confirm `dist/` contains compiled `.js` files matching `src/` structure
+- [x] Run `npm install` to install TypeScript
+- [x] Run `npm run build` — `tsc` should compile without errors
+- [x] Run `npm start` — should print the expected Day 1 output
+- [x] Confirm `dist/` contains compiled `.js` files matching `src/` structure

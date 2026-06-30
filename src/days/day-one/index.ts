@@ -3,6 +3,10 @@ import { readLines, mod } from '../utils.js';
 
 const inputPath = fileURLToPath(new URL('input.txt', import.meta.url));
 
+function mod(n: number, m: number): number {
+  return ((n % m) + m) % m;
+}
+
 export async function partOne(): Promise<void> {
   const lines = readLines(inputPath);
   let dial = 50;

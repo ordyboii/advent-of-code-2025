@@ -4,10 +4,6 @@ export function readLines(path: string): string[] {
   return readFileSync(path, 'utf8').split(/\r?\n/);
 }
 
-export function mod(n: number, m: number): number {
-  return ((n % m) + m) % m;
-}
-
 export function logError(message: string): void {
   console.error(message);
 }
